@@ -9,7 +9,7 @@ import numpy as np
 import pickle 
 import streamlit as st
 
-loaded_model=pickle.load(open("C:/Users/Arnav Jain/Desktop/web app/trained_diabetesmodel.sav",'rb'))
+loaded_model=pickle.load(open('./trained_diabetesmodel.sav','rb'))
 
 
 def diab_pred(input_data):
